@@ -67,3 +67,10 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "table-cell";
   dots[slideIndex-1].className += " active-dot";
 }
+
+var mapOptions = {
+    center: new naver.maps.LatLng(33.510535, 126.519307),
+    zoom: 17
+};
+
+var map = new naver.maps.Map('map', mapOptions);
